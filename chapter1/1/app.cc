@@ -1,22 +1,24 @@
 #include <iostream>
 
 int getNumber() {
-  std::cout << "> number = ";
-  int x;
-  std::cin >> x;
-  return x;
+  std::cout << "> ";
+  int number;
+  std::cin >> number;
+  return number;
 }
 
-void printResult(int x) {
-  std::cout << "Result: " << x << '\n';
+void printResult(int result) {
+  std::cout << "Result: " << result << '\n';
   std::cout << '\n';
 }
 
 int main() {
   // Отримую перше число
+  std::cout << "Enter first number\n";
   int number1 = getNumber();
   
   // отимую друге число
+  std::cout << "Enter second number\n";
   int number2 = getNumber();
   std::cout << '\n';
   
