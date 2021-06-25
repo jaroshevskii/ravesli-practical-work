@@ -1,5 +1,6 @@
 #include <iostream>
 
+// Отримати число
 int getNumber() {
   std::cout << "> ";
   int number;
@@ -7,6 +8,7 @@ int getNumber() {
   return number;
 }
 
+// Вивести результат
 void printResult(int result) {
   std::cout << "Result: " << result << '\n';
   std::cout << '\n';
