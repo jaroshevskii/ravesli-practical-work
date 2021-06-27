@@ -1,3 +1,5 @@
+#include <iostream>
+
 // Отримати число
 int getNumber() {
   std::cout << "> ";
