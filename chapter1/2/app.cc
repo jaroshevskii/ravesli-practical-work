@@ -1,5 +1,3 @@
-#include <iostream>
-
 int getNumber();
 void printResult(int result);
 
